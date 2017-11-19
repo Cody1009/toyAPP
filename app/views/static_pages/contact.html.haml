@@ -1,0 +1,18 @@
+- provide(:title, "Contact")
+!!!
+%html{lang: "ja"}
+  %head
+    %meta{charset: "utf-8"}
+    %title
+      = yield(:title)
+      | Ruby on Rails Sample App
+  %body
+    %h1 Contact
+    %p
+      %a{ :href => 'https://railstutorial.jp/', :id => 'anchor1'}
+        ruby on rails tutorial
+
+        this is the test for haml page
+
+
+

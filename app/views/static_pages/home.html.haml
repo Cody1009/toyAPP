@@ -1,0 +1,16 @@
+- provide(:title, "home" )
+!!!
+%html{lang: "ja"}
+%head
+  %meta{charset: "utf-8"}
+  %title
+    = yield(:title)
+    | Ruby on Rails Tutorial Sample APP
+%h1 home
+%p
+  %a{ :href => 'https://railstutorial.jp/', :id => 'anchor1'}
+    ruby on rails tutorial
+  %p this is the static home page
+
+
+

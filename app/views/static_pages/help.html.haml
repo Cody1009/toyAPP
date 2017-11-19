@@ -1,0 +1,17 @@
+- provide(:title, "Help")
+!!!
+%html{lang: "ja"}
+%head
+  %meta{charset: "utf-8"}
+  %title
+    = yield(:title)
+    | Ruby on Rails Tutorial Sample APP
+%h1 help
+%p
+  %a{ :href => 'https://railstutorial.jp/', :id => 'anchor1'}
+    ruby on rails tutorial
+  %p this is static help page.
+
+
+
+
